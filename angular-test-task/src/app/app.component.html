@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="app">
+  <mat-form-field class="app__input">
+    <input
+      matInput
+      placeholder="Число"
+      [(ngModel)]="number"
+      type="number"
+    >
+  </mat-form-field>
+  <button
+    class="app_button"
+    mat-raised-button
+    color="primary"
+    (click)="handleButtonClick()"
+  >
+    Применить
+  </button>
+  <app-animated-number
+    class="app__animated-number"
+    [value]="actualNumber"
+  ></app-animated-number>
+</div>

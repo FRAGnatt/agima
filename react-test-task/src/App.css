@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__animated-number {
+  margin-left: 30px;
+}
